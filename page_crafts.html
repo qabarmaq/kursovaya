@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <link rel="stylesheet" href="page4/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans&family=Reenie+Beanie&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Seaweed+Script&family=Yeseva+One&display=swap" rel="stylesheet">    <title>Document</title>
+    </head>
+</head>
+<body>
+    <header>
+        <div class="header_main">
+
+            
+            <div class="nadpis_ark">
+                <a href="index.html">ARK: Survival<br> Evolved</a>
+            </div>
+
+
+            <div class="header_items">
+            <a href="page_map.html" class="header_items_items">КАРТА</a> 
+            <a href="page_stats.html" class="header_items_items">ХАРАКТЕРИСТИКИ</a> 
+            <a href="page_creatures.html" class="header_items_items">СУЩЕСТВА</a>
+            <a href="page_crafts.html" class="header_items_items">КРАФТЫ</a>
+            </div>
+    </div>
+
+
+    </header>
+    <div class="zatichka"></div>
+
+    <div class="main_main">
+        <div class="main">
+                <div class="info_ark_captionhp"><button onclick="weapon()" type="button" class="but">Оружие </button> <button onclick="armor()" class="but" type="button">Броня </button> <button onclick="res()" class="but"type="button">Ресуры </button></div>
+                
+                <div class="weapoon">
+                <table class="tablee">
+                    <div class="caption">
+                        ОРУЖИЕ
+                    </div>
+                    <thead>
+                        <tr class="trr">
+                          <th class="thh">Название</th>
+                          <th class="thh">Уровень</th>
+                          <th class="thh">Ингридиенты</th>
+                          <th class="thh">Рабочее место</th>
+                        </tr>
+                      </thead>
+                      <tr class="zh">
+                        <th class="gl">Каменная кирка</th>
+                        <th >1</th>
+                        <th > 1 Камень <br>
+                            1 Дерево<br>
+                            10 Соломы
+                        </th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Факел</th>
+                        <th >1</th>
+                        <th >1 Кремень<br>
+                        1 Дерево<br>
+                    1 Камень</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >Копье</th>
+                        <th >2</th>
+                        <th >2 Кремня<br>
+                        8 Дерева
+                        <br>12 Волокна</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >Каменный топор</th>
+                        <th >2</th>
+                        <th >10 Соломы<br>
+                        1 Кремень<br>
+                    1 Дерево</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Дубинка</th>
+                        <th >3</th>
+                        <th >4 Дерева<br>
+                        15 Волокна</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Металлическая кирка</th>
+                        <th >25</th>
+                        <th >1 Металл. слиток<br>
+                        1 Дерево<br>
+                    10 Кожи</th>
+                        <th >Верстак</th>
+                      </tr >
+                      <tr class="zh">
+                      <th >  Пика</th>
+                        <th >25</th>
+                        <th >10 Металл. слитков<br>
+                        10 Дерева<br>
+                    20 Кожи</th>
+                        <th >Верстак</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >  Металлический топор	</th>
+                        <th >25</th>
+                        <th >8 Металл. слитков<br>
+                        1  Дерево<br>
+                    15 Кожи</th>
+                        <th >Верстак</th>
+                      </tr>
+                      
+                      <tr class="zh">
+                        <th >  Меч</th>
+                        <th >30</th>
+                        <th >50 Металл. слитков<br>
+                        1 Дерево<br>
+                    15 Кожи</th>
+                        <th >Верстак</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Металлический серп</th>
+                        <th >30</th>
+                        <th >18 Металл. слитков
+                            <br>4 Дерева<br>
+                            16 Кожи
+                        </th>
+                        <th >Верстак</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Электрошокер</th>
+                        <th >80</th>
+                        <th >120 Полимера<br>
+                        130 Металл. слитков<br>
+                    120 Электроники<br>
+                70 Цемента<br>
+            120 Кристаллов<br>
+        15 Гель удильщика</th>
+                        <th >Станок</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >  Рогатка</th>
+                        <th >5</th>
+                        <th >1 Кожа<br>
+                        5 Дерева<br>
+                    20 Волокна</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >  Сигнальный пистолет</th>
+                        <th >10</th>
+                        <th >4 Дерева<br>
+                        2 Волокна<br>
+                    10 Селитры<br>
+                2 Пороха</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >  Болас</th>
+                        <th >10</th>
+                        <th >5 Соломы<br>
+                        3 Камня<br>
+                    10 Волокна</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >  Лук</th>
+                        <th >15</th>
+                        <th >15 Дерева<br>
+                        50 Волокна</th>
+                        <th >Нет</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Арбалет</th>
+                        <th >25</th>
+                        <th >7 Металл. слитков<br>
+                        10 Дерева<br>
+                    35 Волокна</th>
+                        <th >Верстак</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Примитивный пистолет</th>
+                        <th >30</th>
+                        <th >60 Металл. слитков<br>
+                        5 Дерева<br>
+                    15 Кожи</th>
+                        <th >Верстак</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Длинная винтовка</th>
+                        <th >35</th>
+                        <th >95 Металл. слитков<br>
+                        20 Дерева<br>
+                    25 Кожи</th>
+                        <th >Верстак</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Дробовик</th>
+                        <th >35</th>
+                        <th >80 Металл. слитков<br>
+                        20 Дерева<br>
+                    25 Кожи</th>
+                        <th >Верстак</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Улучшенный пистолет</th>
+                        <th >50</th>
+                        <th >35 Полимера<br>
+                        20 Металл. слитков<br>
+                    30 Цемента</th>
+                        <th >Станок</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Помповое ружье</th>
+                        <th >50</th>
+                        <th >30 Металл. слитков<br>
+                        55 Полимера<br>
+                    45 Цемента</th>
+                        <th >Станок</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Штурмовая винтовка</th>
+                        <th >55</th>
+                        <th >60 Полимера<br>
+                        35 Металл. слитков<br>
+                    50 Цемента</th>
+                        <th >Станок</th>
+                      </tr>
+                      <tr class="zh">
+                        <th > Блочный лук  </th>
+                        <th >70</th>
+                        <th >95 Полимера<br>
+                        85 Металл. слитков<br>
+                    75 Цемента</th>
+                        <th >Станок</th>
+                      </tr>
+                      <tr class="zh">
+                        <th >  Снайперская винтовка</th>
+                        <th >70</th>
+                        <th >115 Полимера<br>
+                        80 Металл. слитков<br>
+                    110 Цемента</th>
+                        <th >Станок</th>
+                      </tr>
+
+                </table></div>
+
+
+
+
+
+                <div class="armoor">
+                <table class="tablee">
+                  <div class="caption">
+                      БРОНЯ
+                  </div>
+                  <thead>
+                    <tr class="trr">
+                      <th class="thh">Название</th>
+                      <th class="thh">Уровень</th>
+                      <th class="thh">Ингридиенты</th>
+                      <th class="thh">Рабочее место</th>
+                    </tr>
+                  </thead>
+                      <tr class="zh">
+                        <th class="gl"> Тканевые штаны</th>
+                        <th>2</th>
+                        <th>50 Волокна</th>
+                        <th>Нет</th>
+                      </tr>
+                    
+                    <tr class="zh">
+                      <th class="gl"> Тканевая рубашка</th>
+                      <th >2</th>
+                      <th >40 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl"> Тканевые перчатки</th>
+                      <th >3</th>
+                      <th >20 Волокна<br>
+                        4 кожи
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Тканевая шапка</th>
+                      <th >3</th>
+                      <th >10 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Тканевые ботинки</th>
+                      <th >3</th>
+                      <th >25 Волокна <br>
+                        6 Кожи
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Кожаные штаны</th>
+                      <th >15</th>
+                      <th >25 Кожи <br>
+                        10 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Кожаная рубашка</th>
+                      <th >15</th>
+                      <th >20 Кожи <br>
+                        8 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Кожаные ботинки</th>
+                      <th >20</th>
+                      <th >12 Кожи <br>
+                        5 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Кожаные перчатки</th>
+                      <th >20</th>
+                      <th >10 Кожи <br>
+                        4 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Кожаная шапка</th>
+                      <th >20</th>
+                      <th >15 Кожи <br>
+                        6 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Меховые ботинки</th>
+                      <th >25</th>
+                      <th >48 Шкуры <br>
+                        8 Металл. слитков<br>
+                        6 Кожи<br>
+                        4 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Меховые штаны</th>
+                      <th >25</th>
+                      <th >98 Шкуры <br>
+                        16 Металл. слитков<br>
+                        12 Кожи<br>
+                        5 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Меховые перчатки</th>
+                      <th >уровень</th>
+                      <th >40 Шкуры <br>
+                        6 Металл. слитков<br>
+                        5 Кожи<br>
+                        2 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Меховая шапка</th>
+                      <th >25</th>
+                      <th >56 Шкуры <br>
+                        10 Металл. слитков<br>
+                        7 Кожи<br>
+                        3 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Меховой нагрудник</th>
+                      <th >30</th>
+                      <th >80 Шкуры <br>
+                        13 Металл. слитков<br>
+                        10 Кожи<br>
+                        4 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Гилли нагрудник</th>
+                      <th >35</th>
+                      <th >6 Органического полимера<br>
+                        10 Кожи <br>
+                        4 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl"> Гилли штаны</th>
+                      <th >35</th>
+                      <th >8 Органического полимера<br>
+                        12 Кожи <br>
+                        5 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Гилли маска</th>
+                      <th >35</th>
+                      <th >5 Органического полимера<br>
+                        7 Кожи <br>
+                        3 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Гилли ботинки</th>
+                      <th >35</th>
+                      <th >4 Органического полимера<br>
+                        6 Кожи <br>
+                        4 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Гилли перчатки</th>
+                      <th >40</th>
+                      <th >3 Органического полимера<br>
+                        5 Кожи <br>
+                        2 Волокна
+                      </th>
+                      <th >Нет</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Хитиновый нагрудник</th>
+                      <th >37</th>
+                      <th >20 Хитина<br>
+                        10 Кожи<br>
+                        4 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl"> Хитиновый шлем</th>
+                      <th >37</th>
+                      <th >15 Хитина<br>
+                        7 Кожи<br>
+                        3 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Хитиновые штаны</th>
+                      <th >37</th>
+                      <th >25 Хитина<br>
+                        12 Кожи<br>
+                        5 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Хитиновые ботинки</th>
+                      <th >37</th>
+                      <th >12 Хитина<br>
+                        6 Кожи<br>
+                        4 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Хитиновые перчатки</th>
+                      <th >37</th>
+                      <th >10 Хитина<br>
+                        5 Кожи<br>
+                        2 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Металлический нагрудник</th>
+                      <th >45</th>
+                      <th >13 Металл. слитков<br>
+                        10 Кожи<br>
+                        4 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Металлические штаны</th>
+                      <th >45</th>
+                      <th >16 Металл. слитков<br>
+                        12 Кожи<br>
+                        5 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Металлические перчатки</th>
+                      <th >50</th>
+                      <th >6 Металл. слитков<br>
+                        5 Кожи<br>
+                        2 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl"> Металлический шлем</th>
+                      <th >50</th>
+                      <th >10 Металл. слитков<br>
+                        7 Кожи<br>
+                        3 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Металлические ботинки</th>
+                      <th >50</th>
+                      <th >8 Металл. слитков<br>
+                        6 Кожи<br>
+                        4 Волокна
+                      </th>
+                      <th >Верстак</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Штурмовой шлем</th>
+                      <th >80</th>
+                      <th >50 Полимера<br>
+                        25 Жемчуга<br>
+                        7 Кожи<br>
+                        3 Волокна<br>
+                        35 Кристаллов
+                      </th>
+                      <th >Станок</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl"> Штурмовые ботинки</th>
+                      <th >80</th>
+                      <th >30 Полимера<br>
+                        18 Жемчуга<br>
+                        6 Кожи<br>
+                        4 Волокна<br>
+                       
+                      </th>
+                      <th >Станок</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Штурмовые перчатки</th>
+                      <th >80</th>
+                      <th >25 Полимера<br>
+                        15 Жемчуга<br>
+                        5 Кожи<br>
+                        2 Волокна<br>
+                   
+                      </th>
+                      <th >Станок</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Штурмовой нагрудник</th>
+                      <th >80</th>
+                      <th >70 Полимера<br>
+                        40 Жемчуга<br>
+                        10 Кожи<br>
+                        4 Волокна<br>
+                       
+                      </th>
+                      <th >Станок</th>
+                    </tr>
+                    <tr class="zh">
+                      <th class="gl">Штурмовые штаны</th>
+                      <th >80</th>
+                      <th >70 Полимера<br>
+                        40 Жемчуга<br>
+                        12 Кожи<br>
+                        5 Волокна<br>
+                        
+                      </th>
+                      <th >Станок</th>
+                    </tr>
+                    </table>
+                  </div>
+
+
+
+
+
+
+                  <div class="rees">
+                    <table class="tablee">
+                      <div class="caption">
+                          РЕСУРСЫ
+                      </div>
+                      <thead>
+                        <tr class="trr">
+                          <th class="thh">Название</th>
+                          <th class="thh">Уровень</th>
+                          <th class="thh">Ингридиенты</th>
+                          <th class="thh">Рабочее место</th>
+                        </tr>
+                      </thead>
+                          <tr class="zh">
+                            <th class="gl">Селитра</th>
+                            <th>5</th>
+                            <th>2 Кремня <br>
+                            1 Камень</th>
+                            <th>Ступка и пестик</th>
+                          </tr>
+                          <tr class="zh">
+                            <th class="gl">Порох</th>
+                            <th>10</th>
+                            <th>1 Селитра<br>
+                            1 Уголь</th>
+                            <th>Ступка и пестик</th>
+                          </tr>
+                          <tr class="zh">
+                            <th class="gl">Цемент</th>
+                            <th>10</th>
+                            <th>4 Хитина<br>
+                            8 Камня</th>
+                            <th>Ступка и пестик</th>
+                          </tr>
+                          <tr class="zh">
+                            <th class="gl">Полимер</th>
+                            <th>40</th>
+                            <th>2 Обсидиана<br>
+                            2 Цемента</th>
+                            <th>Станок</th>
+                          </tr>
+                          <tr class="zh">
+                            <th class="gl">Электроника</th>
+                            <th>40</th>
+                            <th>3 Жемчуга<br>
+                            1 Металл. слиток</th>
+                            <th>Станок</th>
+                          </tr>
+                          <tr class="zh">
+                            <th class="gl">Абсорбент</th>
+                            <th>85</th>
+                            <th>8 Черного жемчуга
+                              <br>8 Древесного сока<br>
+                              8 Нефти
+                            </th>
+                            <th>Химический стол</th>
+                          </tr>
+                        </table>
+                        </div>
+                          
+                          
+                        
+
+        </div>
+
+
+
+
+    </div>
+    <div class="footer">
+      <div class="icons">
+          <a href="https://web.telegram.org/"><img src="img/telega.png" class="icons_items"></a>
+          <a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/"><img src="img/steam.png" class="icons_items"></a> 
+          <a href="https://vk.com/play_asa"><img src="img/vk.png" class="icons_items"></a>
+      </div>
+      <div class="vse">ВСЕ ПРАВА ЗАЩИЩЕНЫ © 2025</div>
+  </div>
+</body>
+<script src="page4/script.js"></script>
+</html>

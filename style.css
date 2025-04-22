@@ -1,0 +1,304 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: url(img/wallpaper.jpg);
+    background-attachment: fixed;
+    color: white;
+    margin: 0 auto;
+    background-size: 1920px;
+    font-size: 22px;
+    font-family: "Nunito Sans";
+    background-position: top;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Хеадер....................................................................................... ......................*/
+header {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+
+    background-color: black;
+}
+.header_main {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    font-family: "Rubik";
+    justify-content: space-around;
+}
+.nadpis_ark {
+    font-size: 22px;
+    font-family: "Rubik Mono One";
+    text-align: center;
+}
+.header_items {
+text-align: center;
+}
+.header_items_items {
+    font-size: 25px;
+    margin: 1vw;
+    transition: transform 0.3s;
+}
+
+.zatichka {
+    height: 90px;
+}
+
+
+
+
+
+
+/*Меин.............................................................................................................*/
+
+.main_main {
+    margin-top: 0 auto;
+
+}
+
+.main {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main2   {
+    top: 75px;
+    height: 100px;
+    z-index: 2;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 12%;
+    background-color: #521E60;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.genesis {
+    margin-top: 2vw;
+    width: 1300px;
+}
+.caption {
+    font-family: "Nunito Sans";
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.info {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 60%;
+    border-radius: 20px 20px 18px 18px;
+    margin-bottom: 50px;
+}
+
+.info_ark {
+    
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.info_ark_caption {
+    font-family: 'Rubik';
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    background-color: #521E60;
+}
+.navigator {
+    
+    transition: transform 0.3s;
+    margin: 10px;
+    border: 3px solid rgb(156, 156, 156);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navigator:hover .img_nav{
+    margin-bottom: 10px;
+}
+.img_nav {
+    transition: transform 0.3s;
+    transition: all 0.3s;
+    margin-top: 20px;
+    width: 280px;
+    margin-bottom: 9px;
+}
+.zatichka2{
+    width: 100px;
+    height: 550px;
+}
+.caption_nav {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navigator_main {
+    padding:20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+}
+.navigator:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.zatii {
+    height: 20px;
+}
+.navigator:hover .img_nav {
+    
+    transform: scale(1.02);
+}
+.dino:hover .zavr {
+    transition: transform 0.3s;
+    margin-top: 3px;
+
+}
+.caption2 {
+    font-family: "Nunito Sans";
+    font-size: 1vw;
+    margin-top: 1vw;
+    text-align: center;
+    font-weight: 700;
+}
+.footer {
+    height: 100px;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.icons{
+
+    size: 30px;
+}
+.icons_items {
+    width: 35px;
+    margin-right: 15px;
+}
+
+/*Медиа-запросы.............................................................................................................*/
+
+
+
+@media (max-width:1200px) {
+    
+    
+    .caption_nav {
+        font-size: 2vw;
+    }
+    
+}
+
+@media (max-width:900px) {
+    .zatichka2{
+        width: 4vw;
+    }
+    .main {
+        width: 90%;
+    }
+    .main2   {
+        display: none;
+    }
+    .genesis {
+        width: 75vw;
+    }
+    
+}
+
+
+@media (max-width:930px) {
+    .main {
+        width: 90%;
+    }
+    .nadpis_ark {
+        font-size: 2vw;
+    }
+    .header_items_items {
+        font-size: 19px;
+    }
+    .footer {
+        font-size: 19px;
+    }    
+    
+
+}
+@media (max-width:560px) {
+    .info{
+        width: 90%;
+    }
+    .info_ark{
+        font-size: 18px;
+    }
+    .footer{
+        height: 100px;
+        
+    }
+    
+
+}
+@media (max-width:1850px) {
+    .genesis {
+        width: 70vw;
+        
+    }
+}
+@media (max-width:500px) {
+    .navigator {
+        height: 80vw;
+        width: 70vw;
+        font-size: 3vw;
+    }
+    .img_nav {
+        width: 60vw;
+    }
+}
+@media (max-width:360px) {
+    .header_items_items {
+        font-size: 10px;
+    }
+
+    
+    .footer{
+        height: 100px;
+        font-size: 4vw;
+        
+    }
+}

@@ -1,0 +1,364 @@
+body {
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+    background: url(img/wallpaper.jpg);
+    background-attachment: fixed;
+    color: white;
+    margin: 0 auto;
+    background-size: 1920px;
+    font-size: 22px;
+    font-family: "Nunito Sans";
+    background-position: top;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Хеадер.............................................................................................................*/
+
+header {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+
+    background-color: black;
+}
+.header_main {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    font-family: "Rubik";
+    justify-content: space-around;
+}
+.nadpis_ark {
+    font-size: 22px;
+    font-family: "Rubik Mono One";
+    text-align: center;
+}
+.header_items {
+text-align: center;
+}
+.header_items_items {
+    font-size: 25px;
+    margin: 1vw;
+}
+.zatichka {
+    height: 90px;
+}
+
+/*Меин.............................................................................................................*/
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: url(img/wallpaper.jpg);
+    background-attachment: fixed;
+    color: white;
+    margin: 0 auto;
+    background-size: 1920px;
+    font-size: 22px;
+    font-family: "Nunito Sans";
+    background-position: top;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Хеадер.............................................................................................................*/
+
+header {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+
+    background-color: black;
+}
+.header_main {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    font-family: "Rubik";
+    justify-content: space-around;
+}
+.nadpis_ark {
+    font-size: 22px;
+    font-family: "Rubik Mono One";
+    text-align: center;
+}
+.header_items {
+text-align: center;
+}
+.header_items_items {
+    font-size: 25px;
+    margin: 1vw;
+}
+.zatichka {
+    height: 90px;
+}
+
+/*Меин.............................................................................................................*/
+.main_main {
+    margin-top: 0 auto;
+}
+
+.main {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main2   {
+    top: 75px;
+    height: 100px;
+    z-index: 2;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 12%;
+    background-color: #521E60;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.genesis {
+    margin-top: 2vw;
+    width: 1300px;
+}
+.caption {
+    margin-bottom: 10px;
+    font-family: "Nunito Sans";
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.info {
+    transition: transform 0.3s;
+
+    text-align: left;
+    width: 400px;
+    
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 18px 18px;
+}
+
+.info_ark {
+    
+    margin: 20px;
+    color: black;
+    text-align: center;
+}
+.info_ark_captionhp {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #521E60;
+}
+
+.caption3 {
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.stats {
+    margin: 0 auto;
+}
+
+.info_info {
+    margin-top: 50px;
+    text-align: justify;
+    text-indent:30px;
+    font-size: 17px;
+    background: url(img/Healing.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto;
+    color: black;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.tablee { 
+    
+    margin: 0 auto;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    color: black;
+}
+.trr {
+    border: 2px solid #521E60;
+    z-index: 1;
+    top: 60px;
+    position: sticky;
+    font-size: 1.2em;
+    text-align: center;
+}
+th {
+    transition: all 0.3s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border: 2px solid #521E60;
+}
+.zh {
+    transition: transform 0.3s;
+}
+.zh:hover {
+
+        
+        cursor: pointer;
+        transition: all 0.3s;
+    
+        transform: translateY(-2px) scale(1.02);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    
+}
+.zh:hover th {
+    border: rgba(255, 255, 255, 0.7) 2px solid;
+    background-color: rgb(0, 0, 0, 0.01);
+}
+.thh {
+    border: 3px solid #521E60;
+    border-radius: 0px;
+    
+    background-color: #521E60;
+    color: white;
+}
+.gl {
+
+}
+.weapoon{
+    margin-bottom: 30px;
+}
+.armoor{
+    display: none;
+    margin-bottom: 30px;
+}
+.rees {
+ display: none;
+ margin-bottom: 30px;
+}
+.none{
+
+}
+.yes {
+
+}
+.but {
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 22px;
+}
+.but:hover{
+    
+    cursor: pointer;
+}
+.footer {
+    height: 100px;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.icons{
+
+    size: 30px;
+}
+.icons_items {
+    width: 35px;
+    margin-right: 15px;
+}
+
+
+@media (max-width:1000px) {
+    th {
+        font-size: 3vw;
+        padding: 1vw
+    }
+    .info_ark_captionhp{
+        width: 50%;
+    }
+    .but {
+        width: 20vw;
+        font-size: 3vw;
+    }
+    
+
+}
+@media (max-width:930px) {
+    .main {
+        width: 90%;
+    }
+    .nadpis_ark {
+        font-size: 2vw;
+    }
+    .header_items_items {
+        font-size: 19px;
+    }
+    .footer {
+        font-size: 19px;
+    }    
+    
+
+}
+@media (max-width:560px) {
+
+    .footer{
+        height: 100px;
+        
+    }
+    
+
+}
+
+
+@media (max-width:360px) {
+    .header_items_items {
+        font-size: 10px;
+    }
+
+    
+    .footer{
+        height: 100px;
+        font-size: 4vw;
+        
+    }
+}
